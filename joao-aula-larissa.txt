@@ -1,0 +1,57 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa
+// Descrição   : repetição
+// Autor(a)    : João V. A. Carvalho
+// Data atual  : 12/09/2024
+Var
+cont, soma : inteiro
+Inicio
+cont := 1
+enquanto cont <= 20 faca
+         soma := soma + cont
+         cont := cont + 1
+         escreval(soma)
+fimenquanto
+Fimalgoritmo
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa
+// Descrição   : repetição
+// Autor(a)    : João V. A. Carvalho
+// Data atual  : 12/09/2024
+Var
+cont, par : inteiro
+Inicio
+cont := 1
+enquanto cont <= 20 faca
+         par:= cont%2
+
+         se par = 0 entao
+            escreval(cont)
+         senao
+         fimse
+         cont:= cont+1
+fimenquanto
+Fimalgoritmo
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa
+// Descrição   : repetição
+// Autor(a)    : João V. A. Carvalho
+// Data atual  : 12/09/2024
+Var
+n, fator : inteiro
+Inicio
+escreval("insira, numero >:P")
+leia(n)
+fator := 1
+enquanto n >= 1 faca
+fator:=fator*n
+n:=n-1
+fimenquanto
+escreval("ta aq o fatorial: ", fator)
+
+Fimalgoritmo
